@@ -112,7 +112,7 @@ public class CustomAd extends DialogFragment {
         return view;
     }
 
-    public boolean checkdate(){
+    private boolean checkdate(){
         //get current date time with Date()
         Date today = new Date();
         Date pastDate = new Date();
@@ -129,7 +129,7 @@ public class CustomAd extends DialogFragment {
         return  (today.compareTo(pastDate) > 0) ? true:false ;
     }
 
-    public void writeToSharedPrefs(){
+    private void writeToSharedPrefs(){
         //get current date time with Date()
         Date date = new Date();
         SharedPreferences pref = getActivity().getSharedPreferences("Ad", Context.MODE_PRIVATE);
@@ -140,7 +140,7 @@ public class CustomAd extends DialogFragment {
 
     }
 
-    public String readSharedPrefs(){
+    private String readSharedPrefs(){
 
         SharedPreferences pref = getActivity().getSharedPreferences("Ad", Context.MODE_PRIVATE);
         String date = pref.getString("AdDate", "");
