@@ -18,7 +18,7 @@ Generally you will want to utilize referral programs as these do pay rather well
 
 
 # Step 1: Create a simple webpage
-For this step I created a simple page: [freestock4you.github.io](freestock4you.github.io). If you don't have a webserver [github will host a static website for free](https://pages.github.com/).
+For this step I created a simple page: [freestock4you.github.io](https://freestock4you.github.io). If you don't have a webserver [github will host a static website for free](https://pages.github.com/).
 
 # Step 2: Add Code to your homepage
 In your onCreate add:
